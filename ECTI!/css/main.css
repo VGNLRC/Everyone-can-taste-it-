@@ -1,0 +1,79 @@
+*{padding: 0; margin: 0;}
+body{display: flex; flex-direction: column; align-items: center;}
+
+/* header */
+header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+}
+
+#logo{
+    width: 6%;
+}
+
+.menu_item{
+    margin: 20px;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: black;
+}
+
+/* offer */
+#offer{
+    display: flex;
+    gap: 20px;
+    margin-top: 1rem;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#offerimg0{
+    width: 45%;
+    border-radius: 20px;
+}
+
+.text_offer{
+    width: 400px;;
+}
+
+.text_offer p{
+    font-size: 20px;
+    margin-top: 1rem;
+
+}
+
+/* Section */
+section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding-top: 3rem;
+    padding-bottom: 20px;
+}
+/* bloack-a */
+
+
